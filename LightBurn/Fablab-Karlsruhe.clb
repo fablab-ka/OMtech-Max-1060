@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnLibrary>
+    <Material name="Acryl">
+        <Entry Thickness="2.0000" Desc="Acryl - 2mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value="C00"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="25"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Acryl - 3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/2.0000/Acryl - 2mm_copy"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="20"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="5.0000" Desc="Acryl - 5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/3.0000/Acryl - 3mm - Cut_copy"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="12"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="Acryl - 4mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/3.0000/Acryl - 3mm - Cut_copy"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="16"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="10.0000" Desc="Acryl - 10mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/5.0000/Acryl - 5mm - Cut_copy"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="4"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="8.0000" Desc="Acryl - 8mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/5.0000/Acryl - 5mm - Cut_copy"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Acryl - Gravur - Linie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="80"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Acryl - Gravur - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="80"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Buche">
+        <Entry Thickness="4.0000" Desc="Buche - 4mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel/3.0000/Pappel - 3mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="25"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="5.0000" Desc="Buche - 5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Buche/4.0000/Buche - 4mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="18"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="8.0000" Desc="Buche - 8mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Buche/5.0000/Buche - 5mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="12"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Buche - Gravur - Linie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel/-1.0000/Pappel - Gravur - Linie_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Buche - Gravur - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel/-1.0000/Pappel - Gravur - Gefüllt_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Gabun">
+        <Entry Thickness="8.0000" Desc="Gabun - 8mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Buche/8.0000/Buche - 8mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="15"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="10.0000" Desc="Gabun - 10mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gabun/8.0000/Gabun - 8mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="12"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gabun - Gravur - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Buche/-1.0000/Buche - Gravur - Gefüllt_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Gabun - Gravur - Linie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Buche/-1.0000/Buche - Gravur - Linie_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Gummi">
+        <Entry Thickness="3.0000" Desc="Gummi - 3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gummi/3.0000/Gummi - 3mm - Schneiden"/>
+                <maxPower Value="95"/>
+                <maxPower2 Value="20"/>
+                <speed Value="30"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="5.0000" Desc="Gummi - 5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Gummi/3.0000/Gummi - 3mm - Schneiden_copy"/>
+                <maxPower Value="95"/>
+                <maxPower2 Value="20"/>
+                <speed Value="30"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="HDF">
+        <Entry Thickness="3.0000" Desc="HDF - 3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/2.0000/Acryl - 2mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="30"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="HDF - 4mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/3.0000/HDF - 3mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="20"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="HDF - Gravur - Linie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur - Linie_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="HDF - Gravur - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Linie_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Leder">
+        <Entry Thickness="1.0000" Desc="Leder - 1mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leder/1.0000/Leder - 1mm - Schneiden"/>
+                <maxPower Value="75"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="3.0000" Desc="Leder - 3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leder/1.0000/Leder - 1mm - Schneiden_copy"/>
+                <maxPower Value="75"/>
+                <maxPower2 Value="20"/>
+                <speed Value="28"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="5.0000" Desc="Leder - 5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Leder/3.0000/Leder - 3mm - Schneiden_copy"/>
+                <maxPower Value="75"/>
+                <maxPower2 Value="20"/>
+                <speed Value="12"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="POM">
+        <Entry Thickness="10.0000" Desc="POM - 10mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="POM/10.0000/POM - 10mm - Schneiden"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="3"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Pappe">
+        <Entry Thickness="0.3000" Desc="Pappe - 0.3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/0.3000/Pappe - 0.3mm - Schneiden"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="120"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="0.5000" Desc="Pappe - 0.5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/0.3000/Pappe - 0.3mm - Schneiden_copy"/>
+                <maxPower Value="25"/>
+                <maxPower2 Value="20"/>
+                <speed Value="120"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.0000" Desc="Pappe - 1mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/0.5000/Pappe - 0.5mm - Schneiden_copy"/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="130"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.5000" Desc="Pappe - 1.5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/1.0000/Pappe - 1mm - Schneiden_copy"/>
+                <maxPower Value="40"/>
+                <maxPower2 Value="20"/>
+                <speed Value="125"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="Pappe - 2mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/1.5000/Pappe - 1.5mm - Schneiden_copy"/>
+                <maxPower Value="55"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Pappel">
+        <Entry Thickness="3.0000" Desc="Pappel - 3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/3.0000/HDF - 3mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="5.0000" Desc="Pappel - 5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappel/3.0000/Pappel - 3mm - Schneiden_copy"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="40"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Pappel - Gravur - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Gefüllt_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="Pappel - Gravur - Linie">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Linie_copy"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="65"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Stoff">
+        <Entry Thickness="0.3000" Desc="Stoff - 0.3mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stoff/0.3000/Stoff - 0.3mm - Schneiden"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="0.5000" Desc="Stoff - 0.5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stoff/0.3000/Stoff - 0.3mm - Schneiden_copy"/>
+                <maxPower Value="25"/>
+                <maxPower2 Value="20"/>
+                <speed Value="140"/>
+                <dotTime Value="1"/>
+                <priority Value="0"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+</LightBurnLibrary>
