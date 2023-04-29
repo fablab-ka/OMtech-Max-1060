@@ -4,7 +4,8 @@
         <Entry Thickness="2.0000" Desc="Acryl - 2mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
-                <name Value="C00"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/2.0000/Acryl - 2mm - Schneiden"/>
                 <maxPower Value="80"/>
                 <maxPower2 Value="20"/>
                 <speed Value="25"/>
@@ -18,77 +19,108 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/2.0000/Acryl - 2mm_copy"/>
+                <LinkPath Value="Acryl/3.0000/Acryl - 3mm - Schneiden"/>
                 <maxPower Value="80"/>
                 <maxPower2 Value="20"/>
                 <speed Value="20"/>
+                <zOffset Value="2"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="5.0000" Desc="Acryl - 5mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/3.0000/Acryl - 3mm - Cut_copy"/>
+                <LinkPath Value="Acryl/5.0000/Acryl - 5mm - Schneiden"/>
                 <maxPower Value="80"/>
                 <maxPower2 Value="20"/>
                 <speed Value="12"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="4.0000" Desc="Acryl - 4mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/3.0000/Acryl - 3mm - Cut_copy"/>
-                <maxPower Value="80"/>
+                <LinkPath Value="Acryl/4.0000/Acryl - 4mm - Schneiden"/>
+                <maxPower Value="85"/>
                 <maxPower2 Value="20"/>
                 <speed Value="16"/>
+                <zOffset Value="3"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="10.0000" Desc="Acryl - 10mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/5.0000/Acryl - 5mm - Cut_copy"/>
-                <maxPower Value="80"/>
+                <LinkPath Value="Acryl/10.0000/Acryl - 10mm - Schneiden"/>
+                <minPower Value="100"/>
+                <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
                 <speed Value="4"/>
+                <zOffset Value="5"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="8.0000" Desc="Acryl - 8mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/5.0000/Acryl - 5mm - Cut_copy"/>
+                <LinkPath Value="Acryl/8.0000/Acryl - 8mm - Schneiden"/>
+                <minPower Value="80"/>
                 <maxPower Value="80"/>
                 <maxPower2 Value="20"/>
-                <speed Value="10"/>
+                <speed Value="4"/>
+                <zOffset Value="4"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="Acryl - Gravur - Linie">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur"/>
+                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur - Linie"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="80"/>
@@ -102,7 +134,7 @@
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur_copy"/>
+                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur - Gefüllt"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="80"/>
@@ -112,13 +144,52 @@
                 <tabCountMax Value="1"/>
             </CutSetting>
         </Entry>
+        <Entry Thickness="1.5000" Desc="Acryl - 1.5mm - Schneiden - getestet">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/1.5000/Acryl - 1.5mm - Schneiden - getestet"/>
+                <minPower Value="10"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="30"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="6.0000" Desc="Acryl - 6mm - Schneiden - getestet">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Acryl/6.0000/Acryl - 6mm - Schneiden - getestet"/>
+                <maxPower Value="90"/>
+                <maxPower2 Value="20"/>
+                <speed Value="10"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
     </Material>
     <Material name="Buche">
         <Entry Thickness="4.0000" Desc="Buche - 4mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappel/3.0000/Pappel - 3mm - Schneiden_copy"/>
+                <LinkPath Value="Buche/4.0000/Buche - 4mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
                 <speed Value="25"/>
@@ -132,56 +203,137 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Buche/4.0000/Buche - 4mm - Schneiden_copy"/>
+                <LinkPath Value="Buche/5.0000/Buche - 5mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
                 <speed Value="18"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="8.0000" Desc="Buche - 8mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Buche/5.0000/Buche - 5mm - Schneiden_copy"/>
+                <LinkPath Value="Buche/8.0000/Buche - 8mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
-                <speed Value="12"/>
+                <speed Value="10"/>
+                <zOffset Value="5"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="Buche - Gravur - Linie">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappel/-1.0000/Pappel - Gravur - Linie_copy"/>
+                <LinkPath Value="Buche/-1.0000/Buche - Gravur - Linie"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="Buche - Gravur - Gefüllt">
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappel/-1.0000/Pappel - Gravur - Gefüllt_copy"/>
+                <LinkPath Value="Buche/-1.0000/Buche - Gravur - Gefüllt"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Finnpappe">
+        <Entry Thickness="1.5000" Desc="Finnpappe - 1.5mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Finnpappe/1.5000/Finnpappe - 1.5mm - Schneiden"/>
+                <maxPower Value="55"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="Finnpappe - 2mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Finnpappe/2.0000/Finnpappe - 2mm - Schneiden"/>
+                <maxPower Value="65"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="4.0000" Desc="Finnpappe - 4mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Finnpappe/4.0000/Finnpappe - 4mm - Schneiden"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <zOffset Value="2"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
     </Material>
@@ -190,7 +342,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Buche/8.0000/Buche - 8mm - Schneiden_copy"/>
+                <LinkPath Value="Gabun/8.0000/Gabun - 8mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
                 <speed Value="15"/>
@@ -204,21 +356,27 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Gabun/8.0000/Gabun - 8mm - Schneiden_copy"/>
+                <LinkPath Value="Gabun/10.0000/Gabun - 10mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
-                <speed Value="12"/>
+                <speed Value="14"/>
+                <zOffset Value="5"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="Gabun - Gravur - Gefüllt">
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Buche/-1.0000/Buche - Gravur - Gefüllt_copy"/>
+                <LinkPath Value="Gabun/-1.0000/Gabun - Gravur - Gefüllt"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
@@ -232,7 +390,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Buche/-1.0000/Buche - Gravur - Linie_copy"/>
+                <LinkPath Value="Gabun/-1.0000/Gabun - Gravur - Linie"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
@@ -262,7 +420,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Gummi/3.0000/Gummi - 3mm - Schneiden_copy"/>
+                <LinkPath Value="Gummi/5.0000/Gummi - 5mm - Schneiden"/>
                 <maxPower Value="95"/>
                 <maxPower2 Value="20"/>
                 <speed Value="30"/>
@@ -278,35 +436,47 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/2.0000/Acryl - 2mm - Schneiden_copy"/>
+                <LinkPath Value="HDF/3.0000/HDF - 3mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
                 <speed Value="30"/>
+                <zOffset Value="2"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="4.0000" Desc="HDF - 4mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="HDF/3.0000/HDF - 3mm - Schneiden_copy"/>
+                <LinkPath Value="HDF/4.0000/HDF - 4mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
-                <speed Value="20"/>
+                <speed Value="22"/>
+                <zOffset Value="2.5"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="HDF - Gravur - Linie">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Acryl/-1.0000/Acryl - Gravur - Linie_copy"/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Linie"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
@@ -320,14 +490,61 @@
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Linie_copy"/>
-                <maxPower Value="20"/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Gefüllt"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="HDF - Gravur hell - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur hell - Gefüllt"/>
+                <minPower Value="15"/>
+                <maxPower Value="15"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="HDF - Gravur Bild">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="HDF/-1.0000/HDF - Gravur Bild"/>
+                <minPower Value="10"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="300"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+                <ditherMode Value="stucki"/>
             </CutSetting>
         </Entry>
     </Material>
@@ -350,7 +567,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Leder/1.0000/Leder - 1mm - Schneiden_copy"/>
+                <LinkPath Value="Leder/3.0000/Leder - 3mm - Schneiden"/>
                 <maxPower Value="75"/>
                 <maxPower2 Value="20"/>
                 <speed Value="28"/>
@@ -364,7 +581,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Leder/3.0000/Leder - 3mm - Schneiden_copy"/>
+                <LinkPath Value="Leder/5.0000/Leder - 5mm - Schneiden"/>
                 <maxPower Value="75"/>
                 <maxPower2 Value="20"/>
                 <speed Value="12"/>
@@ -372,6 +589,50 @@
                 <priority Value="0"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Metall (ungetestet)">
+        <Entry Thickness="-1.0000" Desc="Metall - Schwarzspray - gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Metall (ungetestet)/-1.0000/Metall - Schwarzspray - gefüllt"/>
+                <minPower Value="80"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="120"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Mylar">
+        <Entry Thickness="0.1500" Desc="Mylar - 0.15 - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Mylar/0.1500/Mylar - 0.15 - Schneiden"/>
+                <minPower Value="10"/>
+                <maxPower Value="30"/>
+                <maxPower2 Value="20"/>
+                <speed Value="600"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
     </Material>
@@ -388,6 +649,28 @@
                 <priority Value="0"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Papier">
+        <Entry Thickness="0.4500" Desc="Papier - gravieren umriss">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Papier/0.4500/Papier - gravieren umriss"/>
+                <minPower Value="10"/>
+                <maxPower Value="10"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1200"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
     </Material>
@@ -410,35 +693,45 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappe/0.3000/Pappe - 0.3mm - Schneiden_copy"/>
-                <maxPower Value="25"/>
+                <LinkPath Value="Pappe/0.5000/Pappe - 0.5mm - Schneiden"/>
+                <maxPower Value="35"/>
                 <maxPower2 Value="20"/>
                 <speed Value="120"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="1.0000" Desc="Pappe - 1mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappe/0.5000/Pappe - 0.5mm - Schneiden_copy"/>
+                <LinkPath Value="Pappe/1.0000/Pappe - 1mm - Schneiden"/>
                 <maxPower Value="40"/>
                 <maxPower2 Value="20"/>
                 <speed Value="130"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="1.5000" Desc="Pappe - 1.5mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappe/1.0000/Pappe - 1mm - Schneiden_copy"/>
+                <LinkPath Value="Pappe/1.5000/Pappe - 1.5mm - Schneiden"/>
                 <maxPower Value="40"/>
                 <maxPower2 Value="20"/>
                 <speed Value="125"/>
@@ -452,7 +745,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappe/1.5000/Pappe - 1.5mm - Schneiden_copy"/>
+                <LinkPath Value="Pappe/2.0000/Pappe - 2mm - Schneiden"/>
                 <maxPower Value="55"/>
                 <maxPower2 Value="20"/>
                 <speed Value="100"/>
@@ -462,41 +755,112 @@
                 <tabCountMax Value="1"/>
             </CutSetting>
         </Entry>
+        <Entry Thickness="-1.0000" Desc="Pappe - Gravur - Gefüllt">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/-1.0000/Pappe - Gravur - Gefüllt"/>
+                <maxPower Value="20"/>
+                <maxPower2 Value="20"/>
+                <speed Value="1200"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="1.0000" Desc="Pappe - 1mm - Schneiden - alternativ">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/1.0000/Pappe - 1mm - Schneiden - alternativ"/>
+                <minPower Value="40"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.0000" Desc="Pappe - 2mm - Schneiden - neu">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Pappe/2.0000/Pappe - 2mm - Schneiden - neu"/>
+                <maxPower Value="90"/>
+                <maxPower2 Value="20"/>
+                <speed Value="80"/>
+                <zOffset Value="1"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
     </Material>
     <Material name="Pappel">
         <Entry Thickness="3.0000" Desc="Pappel - 3mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="HDF/3.0000/HDF - 3mm - Schneiden_copy"/>
+                <LinkPath Value="Pappel/3.0000/Pappel - 3mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
                 <speed Value="50"/>
+                <zOffset Value="2"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="5.0000" Desc="Pappel - 5mm - Schneiden">
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Pappel/3.0000/Pappel - 3mm - Schneiden_copy"/>
+                <LinkPath Value="Pappel/5.0000/Pappel - 5mm - Schneiden"/>
                 <maxPower Value="100"/>
                 <maxPower2 Value="20"/>
-                <speed Value="40"/>
+                <speed Value="30"/>
+                <zOffset Value="3"/>
                 <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
                 <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
         <Entry Thickness="-1.0000" Desc="Pappel - Gravur - Gefüllt">
             <CutSetting type="Scan">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Gefüllt_copy"/>
+                <LinkPath Value="Pappel/-1.0000/Pappel - Gravur - Gefüllt"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
@@ -510,7 +874,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="HDF/-1.0000/HDF - Gravur - Linie_copy"/>
+                <LinkPath Value="Pappel/-1.0000/Pappel - Gravur - Linie"/>
                 <maxPower Value="20"/>
                 <maxPower2 Value="20"/>
                 <speed Value="65"/>
@@ -518,6 +882,139 @@
                 <priority Value="0"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Stein">
+        <Entry Thickness="-1.0000" Desc="Stein gravieren" NoThickTitle="keine Dicke">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stein/keine Dicke/Stein gravieren"/>
+                <minPower Value="100"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="50"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+                <ditherMode Value="stucki"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Stempelgummi">
+        <Entry Thickness="-1.0000" Desc="2.3mm gravieren" NoThickTitle="Stempelgummi gravieren">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stempelgummi/Stempelgummi gravieren/2.3mm gravieren"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="200"/>
+                <dotTime Value="1"/>
+                <interval Value="0.0847"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+                <negative Value="1"/>
+                <ditherMode Value="stucki"/>
+                <dpi Value="300"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="2.3000" Desc="2.3mm schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stempelgummi/2.3000/2.3mm schneiden"/>
+                <minPower Value="70"/>
+                <maxPower Value="70"/>
+                <maxPower2 Value="20"/>
+                <speed Value="15"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="2.3mm gravieren" NoThickTitle="Stempelgummi gravieren">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stempelgummi/Stempelgummi gravieren/2.3mm gravieren"/>
+                <maxPower Value="50"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="2.3mm rastern" NoThickTitle="Stempelgummi gravieren">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stempelgummi/Stempelgummi gravieren/2.3mm rastern"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="150"/>
+                <zOffset Value="-2"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+        <Entry Thickness="-1.0000" Desc="2.3mm Bild rastern" NoThickTitle="Stempelgummi gravieren">
+            <CutSetting type="Image">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Stempelgummi/Stempelgummi gravieren/2.3mm Bild rastern"/>
+                <minPower Value="60"/>
+                <maxPower Value="60"/>
+                <maxPower2 Value="20"/>
+                <speed Value="180"/>
+                <dotTime Value="1"/>
+                <interval Value="0.0847"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+                <negative Value="1"/>
+                <ditherMode Value="stucki"/>
+                <dpi Value="300"/>
             </CutSetting>
         </Entry>
     </Material>
@@ -540,7 +1037,7 @@
             <CutSetting type="Cut">
                 <index Value="0"/>
                 <name Value=""/>
-                <LinkPath Value="Stoff/0.3000/Stoff - 0.3mm - Schneiden_copy"/>
+                <LinkPath Value="Stoff/0.5000/Stoff - 0.5mm - Schneiden"/>
                 <maxPower Value="25"/>
                 <maxPower2 Value="20"/>
                 <speed Value="140"/>
@@ -548,6 +1045,50 @@
                 <priority Value="0"/>
                 <tabCount Value="1"/>
                 <tabCountMax Value="1"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Wellpappe">
+        <Entry Thickness="6.0000" Desc="Wellpappe - 6mm - Schneiden">
+            <CutSetting type="Cut">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Wellpappe/6.0000/Wellpappe - 6mm - Schneiden"/>
+                <maxPower Value="80"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <zOffset Value="3"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
+            </CutSetting>
+        </Entry>
+    </Material>
+    <Material name="Ziegelstein">
+        <Entry Thickness="-1.0000" Desc="Ziegelstein - Gravieren">
+            <CutSetting type="Scan">
+                <index Value="0"/>
+                <name Value=""/>
+                <LinkPath Value="Ziegelstein/-1.0000/Ziegelstein - Gravieren"/>
+                <minPower Value="80"/>
+                <maxPower Value="100"/>
+                <maxPower2 Value="20"/>
+                <speed Value="100"/>
+                <dotTime Value="1"/>
+                <tabsEnabled Value="1"/>
+                <priority Value="0"/>
+                <manualTabs Value="0"/>
+                <tabSize Value="0.2"/>
+                <tabCount Value="1"/>
+                <tabCountMax Value="1"/>
+                <tabSpacing Value="100"/>
+                <tabsUseSpacing Value="0"/>
             </CutSetting>
         </Entry>
     </Material>
